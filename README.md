@@ -3,13 +3,14 @@
 ## 📌 Project Title
 Naija-Language-ID: AI Model for Nigerian Local Language Detection
 
+📖 Read the full story behind this project on [Medium](https://medium.com/@adeizaazeez/my-journey-into-audio-ai-how-i-tamed-hours-of-raw-audio-with-pytorch-and-python-f2ce710f8dfd)
 ---
 
 ## 📖 Description
 This project is an **end-to-end machine learning pipeline** designed to detect Nigeria’s three major local languages (**Hausa, Igbo, Yoruba**) from short audio clips.  
 
 The workflow covers:  
-- Data collection (YouTube, podcasts, radio, interviews)  
+- Data collection (YouTube)  
 - Audio preprocessing (resampling, slicing, speech detection with Silero VAD)  
 - Feature extraction and deep learning model training (PyTorch)  
 - Deployment of a demo application for real-time inference  
